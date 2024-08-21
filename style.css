@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+--main-background: hsl(233, 47%, 7%);
+--card-background: hsl(244, 38%, 16%);
+--acccent: hsl(277, 64%, 61%);
+
+/* fonts */
+--main-heading: hsl(0, 0%, 100%);
+--main-paragraph: hsla(0, 0%, 100%, 0.75);
+--stat-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: var(--main-background);
+    /* font-family: "Inter", sans-serif; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--card-background);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+    margin: 5em;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    padding: 1em;
+}
+
+.card h3 {
+    color: var(--main-heading);
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    margin: .5em 0;
+}
+
+.card h3 .color-text {
+    color: var(--acccent);
+}
+
+.card > p {
+    padding: .3em;
+    margin: .8em 0;
+    color: var(--main-paragraph);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 200;
+    font-size: .78em;
+    line-height: 1.5;
+}
+
+.stats-container {
+    margin-top: 1em;
+    color: var(--stat-heading);
+}
+.stats-container .stats:nth-child(2){
+    margin: 1em 0;
+}
+
+.stats-container .stats .count {
+    color: var(--main-heading);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.stats-container .stats .count-for {
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: .6rem;
+    margin: .2em;
+}
+
+.image-container {
+    background-image: url(images/image-header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsla(277, 64%, 61%, .5);
+    background-blend-mode: overlay;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.attribution {
+    display: none;
+}
+
+/* Larger sizes & Desktop view */
+
+
