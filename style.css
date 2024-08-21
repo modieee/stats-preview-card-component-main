@@ -36,7 +36,8 @@ body {
 }
 
 .card {
-    width: 250px;
+    width: 80vw;
+    max-width: 250px;
     text-align: center;
     padding: 1em;
 }
@@ -90,7 +91,7 @@ body {
     background-repeat: no-repeat;
     background-color: hsla(277, 64%, 61%, .5);
     background-blend-mode: overlay;
-    height: 200px;
+    height: 30vh;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
