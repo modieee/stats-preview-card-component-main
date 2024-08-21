@@ -33,7 +33,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     border-radius: 5px;
-    margin: 5em;
 }
 
 .card {
