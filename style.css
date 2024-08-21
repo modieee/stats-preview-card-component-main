@@ -37,7 +37,6 @@ body {
 
 .card {
     width: 80vw;
-    max-width: 250px;
     text-align: center;
     padding: 1em;
 }
