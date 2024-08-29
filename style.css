@@ -96,7 +96,7 @@ body {
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
     font-size: 1.7rem;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--stat-heading);
     margin: .3em;
 }
